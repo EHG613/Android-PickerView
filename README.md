@@ -89,21 +89,24 @@
 
 #### Android-PickerView 库使用示例：
 
-#### 1.添加Jcenter仓库 Gradle依赖：
-```java
-compile 'com.contrarywind:Android-PickerView:4.1.9'
-```
-或者
+#### 添加依赖
 
-#### Maven
-```
-<dependency>
-<groupId>com.contrarywind</groupId>
-<artifactId>Android-PickerView</artifactId>
-<version>4.1.9</version>
-<type>pom</type>
-</dependency>
-```
+ - 项目build.gradle添加如下
+   ```java
+   allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+   ```
+ - app build.gradle添加如下
+    ```java
+   dependencies {
+	        implementation 'com.github.EHG613:ShadowLayout:2.1.10'
+	}
+   ```
+   
+<br>
 
 #### 2.在项目中添加如下代码：
 
