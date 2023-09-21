@@ -102,7 +102,7 @@
  - app build.gradle添加如下
     ```java
    dependencies {
-	        implementation 'com.github.EHG613:ShadowLayout:2.1.10'
+	        implementation 'com.github.EHG613.Android-PickerView:Android-PickerView:4.1.11'
 	}
    ```
    
